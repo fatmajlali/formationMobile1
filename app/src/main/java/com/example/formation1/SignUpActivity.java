@@ -33,8 +33,8 @@ public class SignUpActivity extends AppCompatActivity {
     private FirebaseAuth firebaseAuth;
     private FirebaseDatabase firebaseDatabase;
     private static final String EMAIL_PATTERN =
-            "^[_A-Aa-z0-9-\\+]+(\\.[_A-Za-z0-9]+)*@" +
-                    "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)-(\\.A-Za-z]{2,})$";
+            "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@" +
+                    "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
     private ProgressDialog progressDialog;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
